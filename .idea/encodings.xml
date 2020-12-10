@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/../05-ms-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../08-ms-eureka-server-ha" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../JVM/src/Math.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../concurrent/src/com/tuling/PossibleReordering.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../concurrent/src/com/tuling/PossibleVisibility.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ms-consumer-order-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ms-provider-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../redisCluster" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../tuling-shop/shop-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../tuling-shop/shop-goods" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../tuling-shop/shop-goods-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../tuling-shop/shop-member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../tuling-shop/shop-member-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../tuling-shop/shop-trade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../tuling-shop/shop-trade-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../zk_pro_demo" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="shop-goods:war">
+    <output-path>$PROJECT_DIR$/../tuling-shop/shop-goods/target</output-path>
+    <root id="archive" name="shop-goods.war">
+      <element id="artifact" artifact-name="shop-goods:war exploded" />
+    </root>
+  </artifact>
+</component>

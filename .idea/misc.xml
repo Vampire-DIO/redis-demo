@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../tuling-shop/shop-admin" />
+    <file type="web" url="file://$PROJECT_DIR$/../tuling-shop/shop-goods" />
+    <file type="web" url="file://$PROJECT_DIR$/../tuling-shop/shop-member" />
+    <file type="web" url="file://$PROJECT_DIR$/../tuling-shop/shop-trade" />
+    <file type="web" url="file://$PROJECT_DIR$/../tuling-shop/shop-web" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../ms-provider-user/pom.xml" />
+        <option value="$PROJECT_DIR$/../05-ms-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/../ms-consumer-order-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/../08-ms-eureka-server-ha/pom.xml" />
+        <option value="$PROJECT_DIR$/../redisCluster/pom.xml" />
+        <option value="$PROJECT_DIR$/../zk_pro_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/../tuling-shop/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/api-gateway-dynamic-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/api-gateway-dynamic-route/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/api-gateway-exception/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/config-client-eureka-kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/config-client-eureka-rabbit/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/config-client-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/config-server-eureka-kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/config-server-eureka-rabbit/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/config-server-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/eureka-server-ha/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/feign-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/hello-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/hello-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/rabbitmq-hello/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/ribbon-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/spring-boot-hello/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/stream-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/stream-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/trace-1/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/trace-2/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/trace-stream-1/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/trace-stream-2/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/turbine-amqp/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/zipkin-server-stream-mysql/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/zipkin-server-stream/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloudBook-master/zipkin-server/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+</project>

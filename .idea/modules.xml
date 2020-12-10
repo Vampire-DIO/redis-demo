@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../05-ms-eureka-server/05-ms-eureka-server.iml" filepath="$PROJECT_DIR$/../05-ms-eureka-server/05-ms-eureka-server.iml" group="spring-cloud" />
+      <module fileurl="file://$PROJECT_DIR$/../JVM/JVM.iml" filepath="$PROJECT_DIR$/../JVM/JVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../concurrent/concurrent.iml" filepath="$PROJECT_DIR$/../concurrent/concurrent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo.iml" filepath="$PROJECT_DIR$/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ms-consumer-order-ribbon/microservice-consumer-order-ribbon.iml" filepath="$PROJECT_DIR$/../ms-consumer-order-ribbon/microservice-consumer-order-ribbon.iml" group="spring-cloud" />
+      <module fileurl="file://$PROJECT_DIR$/../08-ms-eureka-server-ha/microservice-eureka-server-ha.iml" filepath="$PROJECT_DIR$/../08-ms-eureka-server-ha/microservice-eureka-server-ha.iml" group="spring-cloud" />
+      <module fileurl="file://$PROJECT_DIR$/../ms-provider-user/microservice-provider-user.iml" filepath="$PROJECT_DIR$/../ms-provider-user/microservice-provider-user.iml" group="spring-cloud" />
+      <module fileurl="file://$PROJECT_DIR$/redis-boot-sentinel-clustor.iml" filepath="$PROJECT_DIR$/redis-boot-sentinel-clustor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../redisCluster/redisCluster.iml" filepath="$PROJECT_DIR$/../redisCluster/redisCluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tuling-shop/shop-admin/shop-admin.iml" filepath="$PROJECT_DIR$/../tuling-shop/shop-admin/shop-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tuling-shop/shop-common/shop-common.iml" filepath="$PROJECT_DIR$/../tuling-shop/shop-common/shop-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tuling-shop/shop-goods/shop-goods.iml" filepath="$PROJECT_DIR$/../tuling-shop/shop-goods/shop-goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tuling-shop/shop-goods-client/shop-goods-client.iml" filepath="$PROJECT_DIR$/../tuling-shop/shop-goods-client/shop-goods-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tuling-shop/shop-member/shop-member.iml" filepath="$PROJECT_DIR$/../tuling-shop/shop-member/shop-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tuling-shop/shop-member-client/shop-member-client.iml" filepath="$PROJECT_DIR$/../tuling-shop/shop-member-client/shop-member-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tuling-shop/shop-trade/shop-trade.iml" filepath="$PROJECT_DIR$/../tuling-shop/shop-trade/shop-trade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tuling-shop/shop-trade-client/shop-trade-client.iml" filepath="$PROJECT_DIR$/../tuling-shop/shop-trade-client/shop-trade-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tuling-shop/shop-web/shop-web.iml" filepath="$PROJECT_DIR$/../tuling-shop/shop-web/shop-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tuling-shop/tlshop.iml" filepath="$PROJECT_DIR$/../tuling-shop/tlshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../zk_pro_demo/zk_pro_demo.iml" filepath="$PROJECT_DIR$/../zk_pro_demo/zk_pro_demo.iml" />
+    </modules>
+  </component>
+</project>

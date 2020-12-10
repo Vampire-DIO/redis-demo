@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shop-member" />
+        <module name="shop-goods" />
+        <module name="demo" />
+        <module name="shop-common" />
+        <module name="shop-member-client" />
+        <module name="shop-trade" />
+        <module name="shop-trade-client" />
+        <module name="shop-goods-client" />
+        <module name="zk_pro_demo" />
+        <module name="microservice-provider-user" />
+        <module name="microservice-eureka-server-ha" />
+        <module name="redis-boot-sentinel-clustor" />
+        <module name="05-ms-eureka-server" />
+        <module name="microservice-consumer-order-ribbon" />
+        <module name="shop-web" />
+        <module name="redisCluster" />
+        <module name="shop-admin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="05-ms-eureka-server" target="1.8" />
+      <module name="api-gateway" target="1.8" />
+      <module name="api-gateway-dynamic-filter" target="1.8" />
+      <module name="api-gateway-dynamic-route" target="1.8" />
+      <module name="api-gateway-exception" target="1.8" />
+      <module name="config-client" target="1.8" />
+      <module name="config-client-eureka" target="1.8" />
+      <module name="config-client-eureka-kafka" target="1.8" />
+      <module name="config-client-eureka-rabbit" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="config-server-eureka" target="1.8" />
+      <module name="config-server-eureka-kafka" target="1.8" />
+      <module name="config-server-eureka-rabbit" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="eureka-server-ha" target="1.8" />
+      <module name="feign-consumer" target="1.8" />
+      <module name="hello-service" target="1.8" />
+      <module name="hello-service-api" target="1.8" />
+      <module name="hystrix-dashboard" target="1.8" />
+      <module name="microservice-consumer-order-ribbon" target="1.8" />
+      <module name="microservice-eureka-server-ha" target="1.8" />
+      <module name="microservice-provider-user" target="1.8" />
+      <module name="rabbitmq-hello" target="1.8" />
+      <module name="redis-boot-sentinel-clustor" target="1.8" />
+      <module name="redisCluster" target="1.5" />
+      <module name="ribbon-consumer" target="1.8" />
+      <module name="shop-admin" target="1.7" />
+      <module name="shop-common" target="1.7" />
+      <module name="shop-goods" target="1.7" />
+      <module name="shop-goods-client" target="1.7" />
+      <module name="shop-member" target="1.7" />
+      <module name="shop-member-client" target="1.7" />
+      <module name="shop-trade" target="1.6" />
+      <module name="shop-trade-client" target="1.7" />
+      <module name="shop-web" target="1.7" />
+      <module name="spring-boot-hello" target="1.8" />
+      <module name="spring-cloud-in-action" target="1.5" />
+      <module name="stream-consumer" target="1.8" />
+      <module name="stream-producer" target="1.8" />
+      <module name="tlshop" target="1.7" />
+      <module name="trace-1" target="1.8" />
+      <module name="trace-2" target="1.8" />
+      <module name="trace-stream-1" target="1.8" />
+      <module name="trace-stream-2" target="1.8" />
+      <module name="turbine" target="1.8" />
+      <module name="turbine-amqp" target="1.8" />
+      <module name="zipkin-server" target="1.8" />
+      <module name="zipkin-server-stream" target="1.8" />
+      <module name="zipkin-server-stream-mysql" target="1.8" />
+      <module name="zk_pro_demo" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="redis-boot-sentinel-clustor" options="-parameters" />
+    </option>
+  </component>
+</project>
