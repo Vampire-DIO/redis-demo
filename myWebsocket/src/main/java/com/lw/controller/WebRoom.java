@@ -1,11 +1,13 @@
 package com.lw.controller;
 
 
-import cn.hutool.Hutool;
 import cn.hutool.json.JSONUtil;
 import com.lw.entity.Message;
+import com.lw.service.UserService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.web.socket.server.standard.ServerEndpointExporter;
 
 import javax.websocket.OnClose;
 import javax.websocket.OnMessage;
@@ -19,16 +21,20 @@ import java.util.concurrent.ConcurrentHashMap;
 
 @Component
 @Slf4j
-@ServerEndpoint(value = "/web/{userId}")
+@ServerEndpoint(value = "/web/{userId}", configurator = ServerEndpointExporter.class)
 public class WebRoom {
 
     private static final Map<String, Session> clients = new ConcurrentHashMap<>();
     private static final Map<String, String> usMap = new ConcurrentHashMap<>();
 
+    @Autowired
+    private UserService userService;
+
     @OnOpen
     public void onOpen(Session session, @PathParam("userId")String userId){
         //1. 查询未读消息
-
+        log.info("");
+        System.out.println(userService.getUsername());
         log.info("用户 {} 上线: ", userId);
         clients.put(userId, session);
         usMap.put(session.getId(),userId);

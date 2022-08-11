@@ -4,19 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02130806-0ba6-4459-9884-a8900fd36ce7" name="Changes" comment="" />
+    <list default="true" id="02130806-0ba6-4459-9884-a8900fd36ce7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/com/lw/chain/IReceiptHandleChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/com/lw/chain/IReceiptHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/com/lw/chain/Receipt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/com/lw/chain/ReceiptHandleChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/com/lw/chain/ReceiptHandlerContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/com/lw/chain/handler/Mt2101ReceiptHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/com/lw/chain/handler/Mt8104ReceiptHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/com/lw/mychain/filterChain/DebugFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/com/lw/mychain/filterChain/ErrorFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/com/lw/mychain/filterChain/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/com/lw/mychain/filterChain/InfoFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/com/lw/mychain/handler/FilterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebsocket/src/main/java/com/lw/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myWebsocket/src/main/java/com/lw/config/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/myWebsocket/src/main/java/com/lw/config/WebSocketConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myWebsocket/src/main/java/com/lw/controller/WebRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/myWebsocket/src/main/java/com/lw/controller/WebRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myWebsocket/src/main/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myWebsocket/src/main/resources/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myWebsocket/target/classes/com/lw/config/WebSocketConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myWebsocket/target/classes/com/lw/controller/WebRoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myWebsocket/target/classes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myWebsocket/target/classes/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -27,6 +57,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="2Bt5e9OiDaeEjYlrYVV8X01WNhg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,13 +73,28 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../redis-demo/redis-demo" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vblog/vblog2" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.1749137" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FilterConfig">
+    <configuration name="FilterConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lw.mychain.handler.FilterConfig" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lw.mychain.handler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyWebsocketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="myWebsocket" />
       <extension name="coverage">
@@ -60,8 +108,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.FilterConfig" />
+      <item itemvalue="Spring Boot.MyWebsocketApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FilterConfig" />
         <item itemvalue="Spring Boot.MyWebsocketApplication" />
       </list>
     </recent_temporary>
@@ -74,7 +127,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657712633159</updated>
-      <workItem from="1657712634405" duration="2968000" />
+      <workItem from="1657712634405" duration="4376000" />
+      <workItem from="1657800415763" duration="2449000" />
+      <workItem from="1657984433232" duration="20000" />
+      <workItem from="1657985142798" duration="1198000" />
+      <workItem from="1658024245163" duration="2752000" />
+      <workItem from="1660228672785" duration="1278000" />
+      <workItem from="1660230132492" duration="950000" />
+      <workItem from="1660231109438" duration="319000" />
+      <workItem from="1660231468157" duration="7000" />
     </task>
     <servers />
   </component>

@@ -10,5 +10,9 @@
         <module name="myWebsocket" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="learning" target="8" />
+      <module name="myWebsocket" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

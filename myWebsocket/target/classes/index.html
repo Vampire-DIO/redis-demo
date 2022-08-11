@@ -17,6 +17,7 @@
 <button onclick="closeWebSocket()">断开连接</button>
 <hr />
 <br />
+接收方: <input id="destId" type="text">
 消  息：<input id="text" type="text" />
 
 <button onclick="send()">发送消息</button>
@@ -32,7 +33,7 @@
         }
         //判断当前浏览器是否支持WebSocket
         if ('WebSocket'in window) {
-            websocket = new WebSocket("ws://localhost:8080/web/" + nickname);
+            websocket = new WebSocket("ws://localhost:8110/web/" + nickname);
         } else {
             alert('Not support websocket')
         }
@@ -47,7 +48,9 @@
         //接收到消息的回调方法
         websocket.onmessage = function(event) {
             console.log('接受数据: ',event);
-            setMessageInnerHTML(event.data);
+            var msg = JSON.parse(event.data);
+            setMessageInnerHTML(msg.content);
+            // setMessageInnerHTML(event.data);
         }
         //连接关闭的回调方法
         websocket.onclose = function() {
@@ -68,8 +71,16 @@
     }
     //发送消息
     function send() {
-        var message = document.getElementById('text').value;
-        websocket.send(message);
+        var msg = {
+            srcId: '',
+            destId: '',
+            content: '',
+            messageId: ''
+        }
+        msg.srcId = document.getElementById("nickname").value;
+        msg.content = document.getElementById('text').value;
+        msg.destId = document.getElementById('destId').value;
+        websocket.send(JSON.stringify(msg));
     }
 </script>
 </html>
